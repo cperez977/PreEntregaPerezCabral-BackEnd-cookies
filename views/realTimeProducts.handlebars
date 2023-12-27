@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de productos en tiempo real</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>Lista de productos en tiempo real</h1>
+    <ul>
+      {{#each products}}
+        <li>{{this.title}} - {{this.description}} - {{this.price}}</li>
+      {{/each}}
+    </ul>
+
+    <div>
+     <form action="/api/products" method="POST">
+        <label for="title">Title:</label>
+        <input type="text" name="title" placeholder="Product Title" required>
+        
+        <label for="description">Description:</label>
+        <input type="text" name="description" placeholder="Product Description" required>
+        
+        <label for="code">Code:</label>
+        <input type="text" name="code" placeholder="Product Code" required>
+
+        <label for="price">Price:</label>
+        <input type="number" name="price" placeholder="Product Price" required>
+
+        <label for="status">Status:</label>
+        <input type="checkbox" name="status" checked>
+
+        <label for="stock">Stock:</label>
+        <input type="number" name="stock" placeholder="Product Stock" required>
+
+        <label for="category">Category:</label>
+        <input type="text" name="category" placeholder="Product Category" required>
+
+        <label for="thumbnails">Thumbnails:</label>
+        <input type="text" name="thumbnails" placeholder="Image URLs (comma-separated)" required>
+
+        <label for="id">ID:</label>
+        <input type="text" name="id" placeholder="Product ID" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+
+
+{{!--    
+    <script>
+      const socket = io();
+
+      const form = document.querySelector('form');
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const product = form.elements.product.value;
+        
+
+        socket.emit(product);
+      });
+
+      socket.on('product created', (product) => {
+        const li = document.createElement('li');
+        li.textContent = product;
+        document.querySelector('ul').appendChild(li);
+      });
+
+      socket.on('product deleted', (product) => {
+        const lis = document.querySelectorAll('li');
+        lis.forEach((li) => {
+          if (li.textContent === product) {
+            li.remove();
+          }
+        });
+      });
+    </script> --}}
+  </body>
+</html>

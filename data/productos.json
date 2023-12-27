@@ -1,0 +1,167 @@
+[
+  {
+    "title": "dssad",
+    "description": "Lenovo P12",
+    "code": "454345",
+    "price": "32",
+    "status": "on",
+    "stock": "32",
+    "category": "Tablet",
+    "thumbnails": "https://www.lenovo.com/medias/mkt-hero.png?context=bWFzdGVyfHJvb3R8MjM1NTEwfGltYWdlL3BuZ3xoNzIvaDBmLzE1ODY4NzEwOTQ0Nzk4LnBuZ3xmNzRmYmVmYmI5YTljMTI0OTY2MzRlNTgzYWRiZjE0MDVmMjI2ODZmN2E0M2FjNjQ5NDRmNjQ1Y2ZmOGVlNWQz",
+    "id": "1701900478360"
+  },
+  {
+    "title": "Prueba a eliminar",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476274110"
+  },
+  {
+    "title": "Prueba 1",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476414420"
+  },
+  {
+    "title": "Prueba 2",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476419727"
+  },
+  {
+    "title": "Prueba 3",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476431239"
+  },
+  {
+    "title": "Prueba 4",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476435178"
+  },
+  {
+    "title": "Prueba 5",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476438266"
+  },
+  {
+    "title": "Prueba 6",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476444698"
+  },
+  {
+    "title": "Prueba 7",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476453629"
+  },
+  {
+    "title": "Prueba 8",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476462409"
+  },
+  {
+    "title": "Prueba 9",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476466070"
+  },
+  {
+    "title": "Prueba 10",
+    "description": "Descripción del nuevo producto",
+    "code": "ABC123",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": [
+      "imagen1.jpg",
+      "imagen2.jpg"
+    ],
+    "id": "1702476469759"
+  }
+]
