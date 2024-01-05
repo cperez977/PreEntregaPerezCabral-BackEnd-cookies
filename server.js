@@ -79,10 +79,21 @@ app.get("/products", (req, res) => {
   res.render("realTimeProducts");
 });
 
+app.get('/logout', (req, res) => {
+  req.session.destroy((err) => {
+    if(err) {
+      return console.log(err);
+    }
+    res.redirect('/');
+  });
+});
+
+
 app.use("/messages", messageRoutes);
 app.use("/api/products", productosRoutes);
 app.use("/api/carts", carritosRoutes);
 app.use("/api/users", userRoutes);
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
